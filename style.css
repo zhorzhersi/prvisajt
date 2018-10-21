@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    line-height: 1.5
+}
+.jumbotron{
+    background-image:url(pozadina.jpg) ;
+    padding: 50px;
+    padding-bottom: 15%;
+    max-width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.jumbotron-sadrzaj{
+    color: beige;
+    padding: 10%;
+    padding-left: 3%;
+
+
+}
+.jumbotron-sadrzaj h1{
+    font-size: 72px;
+    margin-bottom: 10px;
+    text-shadow:  0 0 5px tomato;
+}
+.jumbotron-sadrzaj p{
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 0 0 5px turquoise;
+}
+.container{
+    padding: 50px 20px;
+}
+.o-nama h2{
+    font-size: 32px;
+}
+.o-nama hr{
+width: 30%;
+align-items:baseline;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.usluga{
+    width: 30%;
+    padding: 20px;
+    cursor: pointer;
+}
+.usluga h2{
+
+    text-align: center;
+
+}
+.usluga img{
+    height:200px;
+    weight:300px;
+    display: block;
+    margin: 5px auto;
+}
+.usluga:hover{
+    background: violet;
+    transition: 1s;
+    box-shadow: 10px 6px 5px rgba(0, 0,0, 0.2);
+}
+
+.usluge{
+    display: flex;
+    justify-content: center;
+}
+.projekat{
+    display: flex;
+    justify-content: center;
+}
+.slika-projekta{
+    padding-right: 20px;
+}
+.projekat{
+    margin: 20px;
+}
+.projekat a{
+    background:blueviolet;
+    padding: 8px 10px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+.projekat a:hover{
+    background: silver;
+    
+    
+}
+.slika-projekta img{
+    border-radius: 10px;
+}
+
+.meni{
+    position: absolute;
+    right: 3%;
+    color: azure;
+}
+.meni ul{
+    list-style-type: none;
+
+}
+.meni ul li{
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+.meni a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+
+}
+.meni a:hover{
+    background-color: black;
+
+}
+.clan{
+    max-width: 25%;
+    background: slateblue;
+    border-radius: 10px;
+
+}
+.clan img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.clanovi{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info-o-clanu{
+    padding: 20px;
+    
+}
